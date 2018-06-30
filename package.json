@@ -1,0 +1,28 @@
+{
+  "name": "@dbrowser/rpc",
+  "version": "0.1.1",
+  "description": "dBrowser RPC Library",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Bench Computer, Inc. <legal@benchx.io>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"require('child_process').spawn(require('electron'), ['./test'], { stdio: 'inherit' })\""
+  },
+  "dependencies": {
+    "duplexer": "^0.1.1"
+  },
+  "devDependencies": {
+    "arraybuffer-equal": "^1.0.4",
+    "electron": "1.8.2-beta.4",
+    "multicb": "^1.2.1",
+    "tape": "^4.6.0",
+    "tape-dom": "0.0.10",
+    "zerr": "^1.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
